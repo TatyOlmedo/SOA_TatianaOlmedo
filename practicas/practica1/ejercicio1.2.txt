@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"> 
+<!DOCTYPE note [
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "Writer: Tatiana Olmedo">
+<!ENTITY copyright "Copyright: W3Schools.">
+]>
+
+
+<restaurante>
+<menu category="Entrada">
+	<nombre>Sopa de pollo</nombre>
+	<costo>2</costo>
+</menu>
+
+
+<menu category="Plato fuerte">
+	<nombre>Carne azada</nombre>
+	<costo>5</costo>
+</menu>
+
+
+<menu category="Postre">
+	<nombre>Frutillas con chocolate</nombre>
+	<costo>1</costo>
+</menu>
+</restaurante>
+
+

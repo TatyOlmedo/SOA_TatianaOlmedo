@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"> 
+<!DOCTYPE note [
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "Writer: Tatiana Olmedo">
+<!ENTITY copyright "Copyright: W3Schools.">
+]>
+
+
+<coleccioncd>
+<cd category="Romantico">
+	<autor>Juan Fernando Velasco</autor>
+	<artista>Juan Fernando Velasco</artista>	
+	<volumen>2</volumen>
+	<year>1995</year>
+</cd>
+<note category="Pop">
+	<autor>Jennifer Lopez</autor>
+	<artista>Jennifer Lopez</artista>	
+	<volumen>1</volumen>
+	<year>2000</year>
+</cd>
+
+<cd category="Regueaton">
+	<autor>Don Omar</autor>
+	<artista>Don Omar</artista>	
+	<volumen>3</volumen>
+	<year>2010</year>
+</cd>
+</coleccioncd>
+
+
