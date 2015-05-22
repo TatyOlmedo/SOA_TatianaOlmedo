@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://ns.soacookbook.com/salami"
+           xmlns:tns="http://ns.soacookbook.com/salami"
+           elementFormDefault="qualified">
+    <xsd:annotation>
+      <xsd:documentation>
+          Shiporder esquema Salami Slice.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:element name="shiporder">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="tns:name" />
+                <xsd:element ref="tns:adress" />
+                <xsd:element ref="tns:city" />
+                <xsd:element ref="tns:country" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="name"/>
+    <xsd:element name="adress"/>
+    <xsd:element name="city"/>
+    <xsd:element name="country"/>
+    
+    
+    <xsd:element name="item">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="tns:title" />
+                <xsd:element ref="tns:note" />
+                <xsd:element ref="tns:quantity" />
+                <xsd:element ref="tns:price" />
+                <xsd:element ref="tns:orderid" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="title"/>
+    <xsd:element name="note"/>
+    <xsd:element name="quantity"/>
+    <xsd:element name="price"/>
+    <xsd:element name="orderid" use="requiered"/>
+</xsd:schema>

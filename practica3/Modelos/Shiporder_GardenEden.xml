@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://ns.soacookbook.com/eden"
+  xmlns:tns="http://ns.soacookbook.com/eden"
+  elementFormDefault="qualified">
+  <xsd:annotation>
+    <xsd:documentation>
+      Shiporder como esquema Garden Eden.
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="shiporder" type="tns:orderPerson"/>
+  <xsd:element name="name" type="xsd:string"/>
+  <xsd:element name="adress" type="xsd:string"/>
+  <xsd:element name="city" type="xsd:string"/>
+  <xsd:element name="country" type="xsd:string"/>
+
+  <xsd:complexType name="orderPerson">
+    <xsd:sequence>
+      <xsd:element ref="tns:name"/>
+      <xsd:element ref="tns:adress"/>
+      <xsd:element ref="tns:city"/>
+      <xsd:element ref="tns:country"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:element name="shiporder" type="tns:item"/>
+  <xsd:element name="title" type="xsd:string"/>
+  <xsd:element name="note" type="xsd:string"/>
+  <xsd:element name="quantity" type="xsd:string"/>
+  <xsd:element name="price" type="xsd:decimal"/>
+  <xsd:element name="orderid" type="xsd:decimal" use="required"/>
+  
+  <xsd:complexType name="item">
+    <xsd:sequence>
+      <xsd:element ref="tns:title"/>
+      <xsd:element ref="tns:note"/>
+      <xsd:element ref="tns:quantity"/>
+      <xsd:element ref="tns:price"/>
+      <xsd:element ref="tns:orderid"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  
+</xsd:schema>
