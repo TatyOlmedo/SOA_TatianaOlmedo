@@ -1,0 +1,8 @@
+1.Describa brevemente cuál es el problema principal que se intenta resolver 
+con SOA?
+
+SOA intenta evitar la duplicación y aislamiento de la información entre varios 
+departamentos de una organización que funcionan con una misma base de datos.
+Intenta resolver la brecha que exite entre el personal de TI y la gente de 
+negocios.
+
