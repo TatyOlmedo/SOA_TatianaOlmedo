@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            targetNamespace="http://www.trabajo.com/alumno"
+            xmlns:alu="http://www.trabajo.com/alumno"
+            elementFormDefault="qualified"
+           
+            xmlns:per="http://www.trabajo.com/persona" 
+            xmlns:doc="http://www.trabajo.com/docencia">
+    
+    
+    <xsd:annotation>
+        <xsd:documentation>
+            Formato Russian Doll
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    
+    <xsd:import namespace="http://www.trabajo.com/persona"
+                 schemaLocation="ejercicio3_persona.xsd" />
+    <xsd:import namespace="http://www.trabajo.com/docencia"
+                 schemaLocation= "ejercicio3_docencia.xsd" />
+
+
+                 <xsd:element name="alumno">
+                     <xsd:complexType>
+                        <xsd:sequence>
+                         <xsd:element name="Persona" type="per:PersonaType" 
+                              maxOccurs="unbounded" />
+                         <xsd:element name="Docencia" type="doc:DocenciaType" 
+                              maxOccurs="unbounded" /> 
+                        </xsd:sequence>
+                     </xsd:complexType>                   
+                 </xsd:element> 
+</xsd:schema>
+
