@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.trabajo.com/persona"
+ elementFormDefault="qualified"
+ attributeFormDefault="qualified">
+    
+          <xsd:complexType name="PersonaType">
+            <xsd:sequence>
+                <xsd:element name="datos">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nombre"    type="xsd:string"/>
+                            <xsd:element name="apellidos" type="xsd:string"/>
+                            <xsd:element name="cedula"       type="xsd:positiveInteger"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="comentario" type="xsd:string" minOccurs="0"/>
+            </xsd:sequence>
+            <xsd:attribute name="nacimiento" type="xsd:date"/>
+        </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,29 @@
+<xsd:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xsd:annotation>
+        <xsd:documentation>
+            Schema de ejercicio1_libros.xml
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    <xsd:element name="libreria">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="libros" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="titulo" type="xsd:string"/>
+                            <xsd:element name="autor" type="xsd:string"/>
+                            <xsd:element name="area" type="xsd:string"/>
+                            <xsd:element name="editorial" type="xsd:string"/>
+                            <xsd:element name="precio" type="xsd:double"/>
+                            <xsd:element name="publicacion" type="xsd:date"/>
+                        </xsd:sequence>
+                    </xsd:complexType> 
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType> 
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,13 @@
+http://link.springer.com/chapter/10.1007/3-540-56869-7_3#page-1
+http://corescholar.libraries.wright.edu/knoesis/655/
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1579656&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1579656
+
+
+expresiones
+http://puntocomnoesunlenguaje.blogspot.com/2013/07/ejemplos-expresiones-regulares-java-split.html
+http://www.monografias.com/trabajos29/introduccion-expresiones-regulares/introduccion-expresiones-regulares.shtml
+https://help.libreoffice.org/Common/List_of_Regular_Expressions/es
+http://iie.fing.edu.uy/~vagonbar/unixbas/expreg.htm
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions
+https://msdn.microsoft.com/es-es/library/az24scfc(v=vs.110).aspx
+http://regexpstudio.com/ES/TRegExpr/Help/regexp_syntax.html
