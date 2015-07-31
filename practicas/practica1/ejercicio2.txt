@@ -1,5 +1,0 @@
-Solo nos permite ver los datos pero no están estructurados, no podemos
-visualizar la tabla y nos presenta los errores en cada fila de la
-programación.
-Los documentos xml no pueden leer los atributos que sirven para 
-diseñar una página.

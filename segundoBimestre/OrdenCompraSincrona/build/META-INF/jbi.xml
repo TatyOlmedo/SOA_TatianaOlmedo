@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" xmlns:ns0="http://manufacturing.org/wsdl/inventory/bp1" xmlns:ns1="http://enterprise.netbeans.org/bpel/OrdenCompraSincrona/POService" xmlns:ns2="http://manufacturing.org/wsdl/purchase/bp1" xmlns:ns3="http://www.sun.com/jbi/descriptor/service-unit" version="1.0">
+    <services binding-component="false">
+        <provides endpoint-name="inventoryService_myRole" interface-name="ns0:inventoryPortType" service-name="ns0:inventorySevicePLink">
+            <ns3:display-name>inventorySevicePLink</ns3:display-name>
+            <ns3:process-name>InventoryService</ns3:process-name>
+            <ns3:file-path>InventoryService.bpel</ns3:file-path>
+        </provides>
+        <provides endpoint-name="purchaseService_myRole" interface-name="ns2:purchaseOrderPT" service-name="ns1:Cliente">
+            <ns3:display-name>Cliente</ns3:display-name>
+            <ns3:process-name>POService</ns3:process-name>
+            <ns3:file-path>POService.bpel</ns3:file-path>
+        </provides>
+        <consumes endpoint-name="inventoryService_partnerRole" interface-name="ns0:inventoryPortType" service-name="ns1:requestInventoryPLink">
+            <ns3:display-name>requestInventoryPLink</ns3:display-name>
+            <ns3:process-name>POService</ns3:process-name>
+            <ns3:file-path>POService.bpel</ns3:file-path>
+        </consumes>
+    </services>
+</jbi>

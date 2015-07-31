@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TATY" name="org.netbeans.modules.compapp.catd.ConfiguredTest" tests="1" time="3.078" timestamp="2015-07-31T13:49:51">
+<testsuite errors="0" failures="1" hostname="TATY" name="org.netbeans.modules.compapp.catd.ConfiguredTest" tests="1" time="1.331" timestamp="2015-07-25T05:51:49">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -9,30 +9,26 @@
     <property name="source.root" value="src" />
     <property name="libs.junit.javadoc" value="C:\OpenESB-v2.3.1\netbeans\java\docs\junit-3.8.2-api.zip" />
     <property name="ant.core.lib" value="C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant.jar" />
-    <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication" />
+    <property name="user.dir" value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="libs.hibernate-persistence.javadoc" value="" />
     <property name="java.vm.version" value="25.45-b02" />
     <property name="libs.jstl11.maven-pom" value="" />
     <property name="libs.MySQLDriver.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
-    <property name="jbi.content.additional" value="../EjemploBpelSincrono/build/SEDeployment.jar" />
+    <property name="jbi.content.additional" value="../build/SEDeployment.jar" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
     <property name="libs.jstl11.src" value="" />
-    <property name="javadoc.notree" value="false" />
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="libs.javaee-web-api-6.0.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\javaee-web-api-6.0.jar" />
     <property name="libs.hibernate-support.maven-pom" value="" />
     <property name="libs.hibernate-support.javadoc" value="" />
     <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_45" />
     <property name="libs.javac-api.src" value="" />
-    <property name="javadoc.noindex" value="false" />
     <property name="xml.module.install.dir" value="C:\OpenESB-v2.3.1\netbeans\soa\modules" />
     <property name="sun.os.patch.level" value="" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="libs.Encoder-Custom.javadoc" value="" />
-    <property name="reference.EjemploBpelSincrono.dist_se" value="../EjemploBpelSincrono/build/SEDeployment.jar" />
     <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
     <property name="netbeans.autoupdate.variant" value="" />
     <property name="have.tests" value="true" />
@@ -51,7 +47,6 @@
     <property name="libs.restapi.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\rest\jsr311-api-1.1.1.jar" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="netbeans.user.dir" value="C:\OpenESB-v2.3.1\netbeans" />
-    <property name="resource.EjemploBpelSincrono" value="../EjemploBpelSincrono/setup" />
     <property name="libs.jaxb.maven-pom" value="" />
     <property name="os.arch" value="amd64" />
     <property name="libs.Encoder-Custom.classpath" value="C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\custom.jar;C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\customencoder-xsdextension.jar" />
@@ -60,14 +55,13 @@
     <property name="libs.jsf12.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.compapp.catd.ConfiguredTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication\test\results\TEST-org.netbeans.modules.compapp.catd.ConfiguredTest.xml crashfile=C:\Users\famous\AppData\Local\Temp\junitvmwatcher8395795926883840857.properties propsfile=C:\Users\famous\AppData\Local\Temp\junit4215238015085026739.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.compapp.catd.ConfiguredTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication\test\results\TEST-org.netbeans.modules.compapp.catd.ConfiguredTest.xml crashfile=C:\Users\famous\AppData\Local\Temp\junitvmwatcher5689439719616418040.properties propsfile=C:\Users\famous\AppData\Local\Temp\junit2884673385972870598.properties" />
     <property name="build.classes.dir" value="build/jar" />
     <property name="enterprise.module.install.dir" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules" />
     <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.jaxws21.javadoc" value="C:\OpenESB-v2.3.1\netbeans\java\docs\jaxws-api-doc.zip" />
     <property name="user.country" value="ES" />
     <property name="libs.jstl11.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="javadoc.encoding" value="" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
     <property name="meta.inf" value="src/conf" />
@@ -91,8 +85,6 @@
     <property name="libs.Encoder-Framework.javadoc" value="" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="libs.javaee-api-6.0.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="javac.debug" value="true" />
-    <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="netbeans.buildnumber" value="201306052037" />
@@ -110,15 +102,13 @@
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="ant.java.version" value="1.8" />
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Java\jdk1.7.0_51\bin;." />
-    <property name="javadoc.author" value="false" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="libs.Encoder-HL7.classpath" value="C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\hl7.jar;C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\hl7encoder-xsdextension.jar" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication" />
+    <property name="basedir" value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
-    <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\javaee-web-api-7.0.jar" />
     <property name="libs.jstl11.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\standard.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jstl.jar" />
     <property name="path.separator" value=";" />
@@ -130,7 +120,7 @@
     <property name="user.language" value="es" />
     <property name="libs.Encoder-Framework.src" value="" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
-    <property name="ant.file." value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication\build.xml" />
+    <property name="ant.file." value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication\build.xml" />
     <property name="libs.spring-framework.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\org-apache-commons-logging.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\cglib-2.2.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\spring\spring-2.5.6.SEC03.jar" />
     <property name="libs.eclipselink.maven-pom" value="" />
     <property name="libs.primefaces.javadoc" value="" />
@@ -156,8 +146,8 @@
     <property name="libs.JWSAntTasks.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.PojoSELib.src" value="C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\sun-pojo-engine-api-src.jar" />
-    <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="" />
+    <property name="project.OrdenCompraSincrona" value=".." />
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre" />
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.spring-webmvc.src" value="" />
@@ -170,7 +160,7 @@
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="libs.junit_4.javadoc" value="C:\OpenESB-v2.3.1\netbeans\java\docs\junit-4.10-javadoc.jar" />
     <property name="libs.spring-webmvc.javadoc" value="" />
-    <property name="test.results.dir" value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication/test/results" />
+    <property name="test.results.dir" value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication/test/results" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="libs.hibernate-support.src" value="" />
     <property name="jna.boot.library.name" value="jnidispatch-340" />
@@ -183,19 +173,19 @@
     <property name="nb.native.filechooser" value="false" />
     <property name="libs.restapi.src" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-    <property name="javac.deprecation" value="false" />
-    <property name="javadoc.use" value="true" />
     <property name="sun.java2d.noddraw" value="true" />
     <property name="libs.jsp-compiler.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="libs.spring-webmvc.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\spring\spring-webmvc-2.5.6.SEC03.jar" />
-    <property name="ant.file" value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication\build.xml" />
+    <property name="ant.file" value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="com.sun.jbi.routing.bc.autoconnect" value="true" />
     <property name="libs.jsf12.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
     <property name="libs.Encoder-HL7.src" value="" />
     <property name="GenerateATSOutput" value="${generate.ats.output}" />
     <property name="libs.restapi.maven-pom" value="" />
     <property name="no.catd.context" value="true" />
     <property name="libs.beans-binding.src" value="" />
+    <property name="ant.file.OrdenCompraSincronaApplication-jbi-impl" value="C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication\nbproject\build-impl.xml" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="libs.swing-layout.src" value="C:\OpenESB-v2.3.1\netbeans\platform\docs\swing-layout-1.0.4-src.zip" />
     <property name="org.openide.major.version" value="IDE/1" />
@@ -207,15 +197,13 @@
     <property name="libs.jsp-compiler.src" value="" />
     <property name="libs.Encoder-COCO.src" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin" />
-    <property name="debug.classpath" value="${javac.classpath}:build/jar" />
-    <property name="javadoc.private" value="false" />
     <property name="libs.jsf20.classpath" value="C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="src.build.dir" value="src/jbiServiceUnits" />
-    <property name="dist.jar" value="dist/EjemploBpelSincronoApplication.zip" />
+    <property name="dist.jar" value="dist/OrdenCompraSincronaApplication.zip" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="" />
     <property name="libs.PojoSELib.javadoc" value="C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\sun-pojo-engine-api-javadoc.jar" />
-    <property name="netbeans.hash.code" value="unique=NB_GLASSFISH0e271da0e-d1a2-4d25-98b6-704a3fe3373d_5f3ae623-4ed7-4a29-86a4-d4d55976fe14" />
+    <property name="netbeans.hash.code" value="unique=NB_GLASSFISH0e271da0e-d1a2-4d25-98b6-704a3fe3373d_d7c9dae7-f017-4791-828a-56a7e004d8ae" />
     <property name="netbeans.default_userdir_root" value="" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="sun.cpu.isalist" value="amd64" />
@@ -233,13 +221,10 @@
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="libs.Encoder-COCO.maven-pom" value="" />
-    <property name="ant.file.type.EjemploBpelSincronoApplication-jbi-impl" value="file" />
     <property name="ide.module.install.dir" value="C:\OpenESB-v2.3.1\netbeans\ide\modules" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.javac-api.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\modules\ext\nb-javac-api.jar" />
-    <property name="project.EjemploBpelSincrono" value="../EjemploBpelSincrono" />
     <property name="java.version" value="1.8.0_45" />
-    <property name="javadoc.version" value="false" />
     <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="source.encoding" value="UTF-8" />
@@ -257,30 +242,26 @@
     <property name="libs.jaxb.src" value="" />
     <property name="libs.Encoder-HL7.maven-pom" value="" />
     <property name="libs.jaxb.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\jaxb-impl.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\activation.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
-    <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="libs.swing-layout.classpath" value="C:\OpenESB-v2.3.1\netbeans\platform\modules\ext\swing-layout-1.0.4.jar" />
     <property name="libs.spring-webmvc3.0.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.1.1.RELEASE.jar" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.restlib.src" value="" />
     <property name="build.generated.dir" value="build/generated" />
-    <property name="javac.source" value="1.4" />
     <property name="libs.hibernate-persistence.src" value="" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.specification.version" value="1.8" />
     <property name="libs.jaxws21.maven-pom" value="" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="nb.registration.enabled" value="false" />
-    <property name="ant.file.EjemploBpelSincronoApplication-jbi-impl" value="I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication\nbproject\build-impl.xml" />
+    <property name="ant.file.type.OrdenCompraSincronaApplication-jbi-impl" value="file" />
     <property name="libs.spring-framework.maven-pom" value="" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes" />
-    <property name="javac.target" value="1.4" />
     <property name="src.dir" value="src/jbiasa" />
     <property name="libs.Encoder-Framework.maven-pom" value="" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.jsf12.src" value="" />
-    <property name="j2ee.platform" value="1.4" />
     <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
     <property name="libs.struts.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\struts-1.3.10-javadoc.zip" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
@@ -292,29 +273,30 @@
     <property name="default.javac.source" value="1.8" />
     <property name="libs.MySQLDriver.src" value="" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="jbi.service-assembly.id" value="EjemploBpelSincronoApplication" />
+    <property name="jbi.service-assembly.id" value="OrdenCompraSincronaApplication" />
     <property name="libs.Encoder-COCO.javadoc" value="" />
     <property name="java.runtime.version" value="1.8.0_45-b15" />
     <property name="libs.ejb3-persistence.javadoc" value="" />
-    <property name="jbi.service-assembly.description" value="Represents the Service Assembly of EjemploBpelSincronoApplication" />
+    <property name="jbi.service-assembly.description" value="Represents the Service Assembly of OrdenCompraSincronaApplication" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="C:\OpenESB-v2.3.1\netbeans\platform\modules\ext\junit-4.10.jar" />
     <property name="user.timezone" value="America/Bogota" />
     <property name="java.module.install.dir" value="C:\OpenESB-v2.3.1\netbeans\java\modules" />
-    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
+    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="netbeans.dirs" value="C:\OpenESB-v2.3.1\netbeans\soa;C:\OpenESB-v2.3.1\netbeans\apisupport;C:\OpenESB-v2.3.1\netbeans\enterprise;C:\OpenESB-v2.3.1\netbeans\ergonomics;C:\OpenESB-v2.3.1\netbeans\harness;C:\OpenESB-v2.3.1\netbeans\ide;C:\OpenESB-v2.3.1\netbeans\java;C:\OpenESB-v2.3.1\netbeans\nb;C:\OpenESB-v2.3.1\netbeans\profiler;C:\OpenESB-v2.3.1\netbeans\webcommon;C:\OpenESB-v2.3.1\netbeans\websvccommon" />
     <property name="libs.jsf20.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
     <property name="libs.metro.src" value="" />
     <property name="libs.absolutelayout.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\modules\ext\AbsoluteLayout.jar" />
-    <property name="libs.metro.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\activation.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-tools.jar" />
     <property name="libs.restlib.maven-pom" value="" />
-    <property name="jbi.content.component" value="sun-bpel-engine" />
+    <property name="libs.metro.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\activation.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\metro\webservices-tools.jar" />
     <property name="java.class.path" value="C:\OpenESB-v2.3.1\netbeans\soa\modules\org-netbeans-modules-compapp-manager-jbi.jar;C:\OpenESB-v2.3.1\netbeans\soa\modules\org-netbeans-modules-compapp-projects-jbi.jar;C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\jbi-admin-common.jar;C:\OpenESB-v2.3.1\netbeans\soa\modules\ext\catd.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\junit-3.8.2.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\jaxws22\api\saaj-api.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\jaxws22\saaj-impl.jar;C:\OpenESB-v2.3.1\netbeans\java\modules\ext\jaxws22\FastInfoset.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-lib.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-deprecated-pre65formatting.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-util.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-lib2.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-indent.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-plain.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-plain-lib.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-settings.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-editor-settings-storage.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-lexer.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-xml-core.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-xml-lexer.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-xml-text.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-xml-xdm.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-xml-xam.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\org-netbeans-modules-csl-api.jar;C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\jaxb\activation.jar;C:\OpenESB-v2.3.1\netbeans\platform\lib\org-openide-modules.jar;C:\OpenESB-v2.3.1\netbeans\platform\lib\org-openide-util.jar;C:\OpenESB-v2.3.1\netbeans\platform\lib\org-openide-util-lookup.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-awt.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-options.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-text.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-loaders.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-nodes.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-netbeans-modules-editor-mimelookup.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-netbeans-modules-editor-mimelookup-impl.jar;C:\OpenESB-v2.3.1\netbeans\platform\core\org-openide-filesystems.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-netbeans-modules-keyring.jar;C:\OpenESB-v2.3.1\netbeans\platform\modules\org-openide-dialogs.jar;C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant-launcher.jar;C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant.jar;C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant-junit.jar;C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant-junit4.jar" />
+    <property name="jbi.content.component" value="sun-bpel-engine" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
-    <property name="j2ee.server.type" value="J2EE" />
+    <property name="resource.OrdenCompraSincrona" value="../setup" />
+    <property name="reference.OrdenCompraSincrona.dist_se" value="../build/SEDeployment.jar" />
     <property name="os.version" value="6.2" />
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
@@ -336,8 +318,8 @@
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.spring-framework.javadoc" value="" />
     <property name="libs.testng.javadoc" value="C:\OpenESB-v2.3.1\netbeans\platform\docs\testng-6.5.1-javadoc.zip" />
-    <property name="libs.PostgreSQLDriver.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\postgresql-9.2-1002.jdbc4.jar" />
     <property name="user.script" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\OpenESB-v2.3.1\netbeans\ide\modules\ext\postgresql-9.2-1002.jdbc4.jar" />
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="soa.module.install.dir" value="C:\OpenESB-v2.3.1\netbeans\soa\modules" />
     <property name="libs.Encoder-Custom.src" value="" />
@@ -347,13 +329,16 @@
     <property name="libs.jsp-compilation.classpath" value="C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\OpenESB-v2.3.1\netbeans\enterprise\modules\ext\jstl.jar;C:\OpenESB-v2.3.1\netbeans\java\ant\lib\ant-launcher.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
     <property name="file.encoding" value="Cp1252" />
-    <property name="build.classes.excludes" value="**/*.java,**/*.form,**/.nbattrs" />
-    <property name="javadoc.nonavbar" value="false" />
-    <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\OpenESB-v2.3.1\netbeans\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="org.netbeans.modules.compapp.catd.ConfiguredTest" name="TestNull" time="2.828" />
+  <testcase classname="org.netbeans.modules.compapp.catd.ConfiguredTest" name="TestExito" time="1.304">
+    <failure message="[25-jul-2015 0:51:51] The response is not identical to the expected output." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: [25-jul-2015 0:51:51] The response is not identical to the expected output.
+	at org.netbeans.modules.compapp.catd.ConfiguredTest.checkExpectedOutput(ConfiguredTest.java:2354)
+	at org.netbeans.modules.compapp.catd.ConfiguredTest.checkExpectedOutput(ConfiguredTest.java:2224)
+	at org.netbeans.modules.compapp.catd.ConfiguredTest.testConcurrentSOAPRequest(ConfiguredTest.java:867)
+</failure>
+  </testcase>
   <system-out><![CDATA[GenerateATSOutput=${generate.ats.output}
 NetBeansUserDir=C:\OpenESB-v2.3.1\.netbeans\openesb
 ServerPassword=adminadmin
@@ -402,24 +387,27 @@ sun.cpu.endian=little
 sun.cpu.isalist=amd64
 sun.desktop=windows
 sun.io.unicode.encoding=UnicodeLittle
-sun.java.command=org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.compapp.catd.ConfiguredTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication\test\results\TEST-org.netbeans.modules.compapp.catd.ConfiguredTest.xml crashfile=C:\Users\famous\AppData\Local\Temp\junitvmwatcher8395795926883840857.properties propsfile=C:\Users\famous\AppData\Local\Temp\junit4215238015085026739.properties
+sun.java.command=org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.compapp.catd.ConfiguredTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication\test\results\TEST-org.netbeans.modules.compapp.catd.ConfiguredTest.xml crashfile=C:\Users\famous\AppData\Local\Temp\junitvmwatcher5689439719616418040.properties propsfile=C:\Users\famous\AppData\Local\Temp\junit2884673385972870598.properties
 sun.java.launcher=SUN_STANDARD
 sun.jnu.encoding=Cp1252
 sun.management.compiler=HotSpot 64-Bit Tiered Compilers
 sun.os.patch.level=
 user.country=ES
-user.dir=I:\myLastEPN\SOA_TatianaOlmedo\segundoBimestre\EjemploBpelSincrono\EjemploBpelSincronoApplication
+user.dir=C:\Users\famous\Desktop\plantillas-sw04\OrdenCompraSincrona\OrdenCompraSincronaApplication
 user.home=C:\Users\famous
 user.language=es
 user.name=TATY
 user.script=
 user.timezone=America/Bogota
 user.variant=
-Test TestNull\Concurrent.properties Passed. Threads count Success: <1> Error: <0> Not completed: <0>
+Test TestExito\Concurrent.properties
+  * Difference (Delete): SOAP-ENV:Fault
+  * Difference (Add): sendPurchaseOrderResponse
+ Failed. (Destination: http://localhost:12100/wsdl/purchase/PurchaseOrder/Servicelocation/bp1)
 ]]></system-out>
-  <system-err><![CDATA[jul 31, 2015 8:49:53 AM org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage$KeyMapsReader startElement
+  <system-err><![CDATA[jul 25, 2015 12:51:50 AM org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage$KeyMapsReader startElement
 ADVERTENCIA: The keybinding 'A-MOUSE_WHEEL_UP' in Editors/Keybindings/NetBeans/Defaults/org-netbeans-modules-editor-keybindings.xml may not work correctly on Mac. Keybindings starting with Alt or Ctrl should be coded with latin capital letters 'O' or 'D' respectively. For details see org.openide.util.Utilities.stringToKey().
-jul 31, 2015 8:49:53 AM org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage$KeyMapsReader startElement
+jul 25, 2015 12:51:50 AM org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage$KeyMapsReader startElement
 ADVERTENCIA: The keybinding 'A-MOUSE_WHEEL_DOWN' in Editors/Keybindings/NetBeans/Defaults/org-netbeans-modules-editor-keybindings.xml may not work correctly on Mac. Keybindings starting with Alt or Ctrl should be coded with latin capital letters 'O' or 'D' respectively. For details see org.openide.util.Utilities.stringToKey().
 ]]></system-err>
 </testsuite>
