@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" xmlns:ns1="http://manufacturing.org/wsdl/inventory/bp1" xmlns:ns2="http://enterprise.netbeans.org/bpel/OrdenCompraSincrona/POService" xmlns:ns3="http://manufacturing.org/wsdl/purchase/bp1" version="1.0">
+    <services binding-component="true">
+        <consumes endpoint-name="inventoryServicePort" interface-name="ns1:inventoryPortType" service-name="ns1:inventoryService"/>
+        <consumes endpoint-name="purchaseOrderPort" interface-name="ns3:purchaseOrderPT" service-name="ns3:purchaseOrderService"/>
+    </services>
+</jbi>

@@ -1,0 +1,11 @@
+esfot\soa\ObjectFactory.class
+esfot\soa\ValidaWS_Service.class
+esfot\soa\ObtenerProvinciaResponse.class
+esfot\soa\ObtenerProvincia.class
+esfot\soa\package-info.class
+esfot\soa\VerificarCedulaResponse.class
+esfot\soa\ValidaWS.class
+soaesfot\cedulawebclient\CedulaServle.class
+esfot\soa\VerificarCedula.class
+esfot\soa\CIFault_Exception.class
+esfot\soa\CIFault.class

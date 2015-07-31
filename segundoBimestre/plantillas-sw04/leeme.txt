@@ -1,0 +1,13 @@
+Ficheros proporcionados para el ejercicio 1 de la sesión 4 de Servicios Web
+(servicio de orden de compra síncrono con BPEL):
+
+OrdenCompra.zip, contiene
+  - el proyecto BPEL OrdenCompraSincrona
+  - el fichero input.xml a utilizar para realizar las pruebas en la Composite Application
+
+inventory.zip contiene
+  - el fichero IventoryService.pbel
+
+
+
+
